@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* HEADER + MENU NAVIGATION */
+  header .navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.721);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end; /* Aligns nav items to the right */
+    align-items: center;
+    padding-right: 20px; /* Adds some space from the right edge */
+  }
+  
+  .navbar a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a.logo img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar a:not(.logo):hover {
+    color: rgb(236, 0, 0);
+  }
+  
+  main {
+    padding-top: 60px;
+  }
+
+.home-section {
+    margin-top: -60px;
+    background-image: url('/images/accueil_background.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255); /* This is for white text, adjust the color as needed */
+  }
+  
+  .home-content h1 {
+    font-size: 3rem; /* Adjust the size as needed */
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-content p {
+    font-size: 1.5rem; /* Adjust the size as needed */
+  }
+  
+/* ... other CSS styles above ... */
+
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 50px; /* Adjust padding as needed */
+    background-color: #fff; /* Background color of the section */
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust spacing between text and image */
+    max-width: 1200px; /* Maximum width of the content area */
+    margin: 0 auto; /* Center the content area */
+  }
+  
+  .about-image {
+    flex: 1;
+    padding-right: 50px; /* Space between image and text */
+  }
+  
+  .about-image img {
+    width: 100%; /* Make image responsive */
+    max-width: 400px; /* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    background-color: #ccc; /* Placeholder background color */
+  }
+  
+  .about-text {
+    flex: 2; /* Adjust the flex ratio as needed */
+    padding-left: 50px; /* Space between image and text */
+  }
+
+  .about-text h2 {
+    font-size: 2rem; /* Adjust the size as needed */
+    color: #000; /* Text color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .about-text p {
+    font-size: 1rem; /* Adjust the size as needed */
+    color: #333; /* Text color for the paragraph */
+    line-height: 1.6; /* Adjust line height as needed */
+  }
+
+  .news-section {
+    background-image: url('/images/server-scaled.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Assuming white text color for contrast */
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  
+  .news-content {
+    max-width: 1200px; /* Maximum width of the content area */
+    margin: 0 auto; /* Center the content area */
+    text-align: center; /* Center-align the text */
+  }
+  
+  .news-content h2 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+    margin-bottom: 0.5rem; /* Space below the heading */
+  }
+  
+  .news-content p {
+    font-size: 1.5rem; /* Adjust the size as needed */
+  }
+
+  /* ... other CSS styles above ... */
+
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px; /* Adjust as needed */
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skills {
+    flex: 1; /* Adjust as needed */
+  }
+  
+  .skill label {
+    display: block; /* Ensure the label is above the progress bar */
+  }
+  
+  skill progress {
+    width: 100%; /* Full width of its container */
+    -webkit-appearance: none; /* Disables default appearance */
+    appearance: none;
+    height: 1.5em;
+  }
+  
+  /* Style the progress bar */
+  skill progress::-webkit-progress-bar {
+    background-color: #eee;
+  }
+  
+  skill progress::-webkit-progress-value {
+    background-color: #007bff;
+  }
+  
+  skill progress::-moz-progress-bar {
+    background-color: #007bff;
+  }
+  
+  .cv {
+    flex: 1; /* Adjust as needed */
+    padding-left: 50px; /* Space between the skills and the CV */
+  }
+  
+  .cv img {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+  }
+  
+  /* ... rest of your CSS below ... */
+  

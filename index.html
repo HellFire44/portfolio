@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilien Griffon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#accueil" class="logo">
+              <img src="/images/photoprofil.jpg" alt="Photo de profil"> <!-- Your profile image here -->
+            </a>
+            <a href="#accueil">Accueil</a>
+            <a href="#aprofil">Profil</a>
+            <a href="#competences">Compétences</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </nav>
+    </header>
+
+    <main>
+
+        <!--  SECTION ACCUEIL -->
+        <section id="accueil" class="home-section">
+            <div class="home-content">
+              <h1>Emilien Griffon</h1>
+              <p>Développeur Web</p>
+            </div>
+          </section>
+
+        <!-- SECTION A PROPOS -->
+        <section id="apropos" class="about-section">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/images/photoprofil.jpg" alt="Emilien Griffon"> 
+                </div>
+                    <div class="about-text">
+                        <h2>À PROPOS DE MOI</h2>
+                            <p>
+                                Bonjour ! Je suis <strong>Emilien Griffon</strong>, j'ai 25 ans. Mon parcours professionnel a débuté dans l'usinage où la précision, la rigueur et la technicité étaient mes quotidiens. Ces années en tant que technicien d'usinage m'ont inculqué une solide éthique de travail et un œil pour le détail, des compétences que j'apporte désormais dans le monde du développement web.
+                            </p>
+                            <p>
+                                Ma transition vers le développement web n'a pas été un simple changement de carrière, mais une réelle métamorphose professionnelle, motivée par une passion profonde pour la technologie et l'innovation. Fasciné depuis toujours par le potentiel infini du numérique, j'ai embrassé cette nouvelle voie avec l'enthousiasme de celui qui trouve sa vocation.
+                            </p>
+                            <p>
+                                Après une formation intensive en développement web, je mets à profit ma capacité à résoudre des problèmes complexes et mon approche méthodique pour créer des expériences utilisateur fluides et réactives. Aujourd'hui, je combine mon savoir-faire technique avec ma créativité pour développer des sites web qui non seulement fonctionnent bien, mais qui racontent aussi une histoire.
+                            </p>
+                            <p>
+                                Toujours à la recherche de nouveaux défis, je suis prêt à mettre mon énergie et ma curiosité au service de projets innovants. Avec un pied dans l'ingénierie et l'autre dans la programmation, je suis le lien entre le concret et le virtuel, prêt à construire le futur du web.
+                            </p>
+                    </div>
+            </div>
+        </section>
+        
+        <!-- SECTION ACTUALITÉS -->
+        <section id="actualites" class="news-section">
+            <div class="news-content">
+              <h2>ACTUELLEMENT :</h2>
+              <p>En recherche d'emploi</p>
+            </div>
+          </section>
+
+
+        <section id="competences" class="skills-section">
+        <div class="container">
+            <div class="skills">
+            <!-- FRONT END -->
+            <h2>FRONT-END</h2>
+            <div class="skill">
+                <label for="html">HTML</label>
+                <progress id="HTML" value="80" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="css">CSS</label>
+                <progress id="css" value="70" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="js">JavaScript</label>
+                <progress id="js" value="60" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="react">React</label>
+                <progress id="react" value="40" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="SEO">SEO</label>
+                <progress id="SEO" value="80" max="100"></progress>
+            </div>
+            <!-- BACK END -->
+            <h2>BACK-END</h2>
+            <div class="skill">
+                <label for="nodejs">NODE.js</label>
+                <progress id="nodejs" value="50" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="mongodb">MongoDB</label>
+                <progress id="mongodb" value="50" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="express">Express.js</label>
+                <progress id="express" value="50" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="api">Création et utilisation API</label>
+                <progress id="api" value="50" max="100"></progress>
+            </div>
+
+            <!-- OUTILS -->
+            <h2>OUTILS</h2>
+            <div class="skill">
+                <label for="vscode">Visuel Studio</label>
+                <progress id="vscode" value="50" max="100"></progress>
+            </div> 
+            <div class="skill">
+                <label for="Git">Git / GitHub</label>
+                <progress id="Git" value="50" max="100"></progress>
+            </div> 
+            <div class="skill">
+                <label for="postman">Postman</label>
+                <progress id="postman" value="50" max="100"></progress>
+            </div> 
+            <div class="skill">
+                <label for="npm">npm / yarn</label>
+                <progress id="npm" value="50" max="100"></progress>
+            </div> 
+            </div>
+            <div class="cv">
+            <img src="path-to-your-cv.jpg" alt="CV Emilien Griffon"> <!-- Replace with actual image path -->
+            </div>
+        </div>
+        </section>
+        <section id="portfolio">
+          <!-- Content for Portfolio -->
+        </section>
+        <section id="contact">
+          <!-- Content for Contact -->
+        </section>
+      </main>
+</body>
+</html>
