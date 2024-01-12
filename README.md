@@ -1,10 +1,10 @@
-# [Votre Nom] - Portfolio
+# [Emilien Griffon] - Portfolio
 
 Bienvenue sur mon portfolio GitHub! Ici, vous trouverez une collection de projets qui montrent mes compétences et mon expérience en tant que développeur. Chaque projet présenté a été soigneusement sélectionné pour illustrer ma capacité à créer des solutions logicielles élégantes et efficaces.
 
 ## À Propos de Moi
 
-Je suis [Votre Nom], un développeur passionné par la création d'expériences numériques engageantes et accessibles. Mon parcours m'a permis d'acquérir des compétences en [langages de programmation], [frameworks], [outils], et plus encore. Je suis toujours à la recherche de nouvelles opportunités pour apprendre et grandir professionnellement.
+Je suis [Emilien Griffon], un développeur passionné par la création d'expériences numériques engageantes et accessibles. Mon parcours m'a permis d'acquérir des compétences en [langages de programmation], [frameworks], [outils], et plus encore. Je suis toujours à la recherche de nouvelles opportunités pour apprendre et grandir professionnellement.
 
 ## Projets Phares
 
