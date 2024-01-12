@@ -47,7 +47,7 @@ main {
 /* SECTION ACCUEIL */
 .home-section {
   margin-top: -60px;
-  background-image: url('/images/1818ac57626bb116d5f39726aa728340.avif');
+  background-image: url('https://cdn.discordapp.com/attachments/1138213465304092722/1195404699424268308/1818ac57626bb116d5f39726aa728340.jpg?ex=65b3de61&is=65a16961&hm=f4a71c0018f5a3abec0a78de4f3a0c8db0ec41b1deb05cfad7462598e35700a6&');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -131,7 +131,7 @@ padding: 0.5rem 1rem;
 
 /* SECTION ACTUALITÉS */
 .news-section {
-  background-image: url('/images/server-scaled.jpg');
+  background-image: url('https://cdn.discordapp.com/attachments/1138213465304092722/1195405644245778642/server-scaled.jpg?ex=65b3df43&is=65a16a43&hm=5f0285f5ba14d8c6c60f157cc397c15a88ea94aee95bfd2086698976dd1bcdf6&');
   background-size: cover;
   background-position: center;
   color: white;
@@ -276,15 +276,15 @@ border-radius: 10px;
 
 
 .card--1 .card__img, .card--1 .card__img--hover {
-  background-image: url('/images/booki.png');
+  background-image: url('https://cdn.discordapp.com/attachments/1138213465304092722/1195404154168934530/booki.png?ex=65b3dddf&is=65a168df&hm=04fb34844e677b1efbf6163aad6c3d77989b5b9cc6407df5652a88210e314e38&');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-  background-image: url('/images/nina_carducci.PNG');
+  background-image: url('https://cdn.discordapp.com/attachments/1138213465304092722/1195404155888599160/nina_carducci.PNG?ex=65b3dde0&is=65a168e0&hm=becff0e1c246d4629772606ad2312d5859abf879be04a0511868e885a93e6f53&');
 }
 
 .card--3 .card__img, .card--3 .card__img--hover {
-  background-image: url('/images/pix_tournament.PNG');
+  background-image: url('https://cdn.discordapp.com/attachments/1138213465304092722/1195404157549543585/pix_tournament.PNG?ex=65b3dde0&is=65a168e0&hm=8b74218f03823ff83eaebd4c355f5f6031de30bb1fa2e853e03a878d2434fcc8&');
 }
 
 
@@ -336,7 +336,7 @@ border-radius: 10px;
 
 
 .background_contact {
-  background: url("/images/unnamed.jpg");
+  background: url("https://cdn.discordapp.com/attachments/1138213465304092722/1195404157968982106/unnamed.jpg?ex=65b3dde0&is=65a168e0&hm=23560efa5914a7216b542dddac5da4451e74810a03dbda630c49a064bc34e3cb&");
   background-size: cover;
   background-position: center;
   color: white;
