@@ -214,31 +214,34 @@
         </section>
         
         <!-- SECTION BANNIER CONTACT -->
-        <section id="contact" class="background_contact">
-            <div class="news-contents">
-              <h2>CONTACTEZ-MOI</h2>
-              <p>N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.</p>
+    <!-- Section Contact -->
+    <section id="contact" class="background_contact">
+        <div class="news-contents">
+            <h2>CONTACTEZ-MOI</h2>
+            <p>N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.</p>
+        </div>
+        <div class="contact-section">
+            <form id="mon-formulaire">
+                <input type="text" name="from_name" class="form-control" placeholder="Nom / Prénom" required>
+                <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+                <input type="tel" name="telephone" class="form-control" placeholder="Téléphone">
+                <input type="text" name="objet" class="form-control" placeholder="Objet" required>
+                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+                <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+            <div class="contact-info">
+                <a href="mailto:emiliengriffon@hotmail.fr">emiliengriffon@hotmail.fr</a>
+                <a href="tel:+330611155623">06 11 15 56 23</a>
             </div>
-            <div class="contact-section">
-                <form>
-                    <input type="text" class="form-control" placeholder="Nom" required>
-                    <input type="text" class="form-control" placeholder="Prénom" required>
-                    <input type="email" class="form-control" placeholder="E-mail" required>
-                    <input type="tel" class="form-control" placeholder="Téléphone">
-                    <input type="text" class="form-control" placeholder="Objet" required>
-                    <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
-                    <button type="submit" class="submit-btn">Envoyer</button>
-                </form>
-                <div class="contact-info">
-                    <a href="mailto:emiliengriffon@hotmail.fr">emiliengriffon@hotmail.fr</a>
-                    <a href="tel:+330611155623">06 11 15 56 23</a>
-                </div>
-            </div>
-          </section>
+        </div>
+    </section>
 
-      </main>
-      <footer class="footer">
-        &copy; 2024 - Emilien Griffon - Tous droits réservés.
-    </footer>
+    
+</main>
+<footer class="footer">
+    &copy; 2024 - Emilien Griffon - Tous droits réservés.
+</footer>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript" src="emailjs_integration.js"></script>
 </body>
 </html>
